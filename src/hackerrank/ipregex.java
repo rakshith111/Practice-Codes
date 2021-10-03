@@ -8,21 +8,6 @@ import static java.util.regex.Pattern.*;
 
 public class ipregex {
     private static void MyRegex(String ip) {
-//        if (compile("\\.").matcher(ip).results().count() != 3) {
-//            System.out.println("false");
-//        } else {
-//            String[] res = ip.split("[.]", 0);
-//            int count = 0;
-//            for (String s : res) {
-//                if (Integer.parseInt(s) <= 255 && Integer.parseInt(s) >= 0 && s.length() <= 3) {
-//                    count += 1;
-//                }
-//            }
-//            if (count == 4) {
-//                System.out.println("true");
-//            } else System.out.println("false");
-//
-//        }
         String match="(\\d{1,2}|[01]\\d\\d|2[0-4]\\d|25[0-5])";
         ///               d{1,2} covers for 0~99
         // [01]\d\d  covers for 3 digit 099 and 199 since 1st place can be 1 or 0 and hundreds can be 1 or 0 and rest is 0-9
