@@ -21,9 +21,6 @@ public class permArray {
             int [] res;
             res=Solution.buildArray(arr);
             System.out.println(Arrays.toString(res));
-
-
-
         }
     }
 
