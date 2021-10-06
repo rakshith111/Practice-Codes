@@ -1,5 +1,4 @@
-package l33tc0de;
-
+package l33tc0de.Java;
 public class ret_sum {
     public int[] runningSum(int[] nums) {
         int sum=0;

@@ -1,4 +1,4 @@
-package l33tc0de;
+package l33tc0de.Java;
 
 import java.util.Arrays;
 
