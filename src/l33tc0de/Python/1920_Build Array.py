@@ -3,10 +3,6 @@ class Solution:
     def buildArray(nums):
         return [nums[i] for i in nums]
           
-     
-
-
-
 mysol=Solution()
 start=time.perf_counter()
 nums=[5,0,1,2,3,4]
