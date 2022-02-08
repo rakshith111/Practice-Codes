@@ -1,4 +1,4 @@
-#array input got to return the indices of the arr which add up to target
+#array input got to return the indices of the arr which add up to targets
 nums = [int(item) for item in input().split()]
 target=int(input())
 # tem=nums
