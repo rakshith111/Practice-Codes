@@ -1,10 +1,8 @@
 package l33tc0de.Java;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-public class pairs_1512 {
+
+public class goodpairs_1512 {
     public static int numIdenticalPairs(int[] nums) {
     int count=0,i=0,curr,siz=nums.length;
     while(i<siz){
