@@ -10,18 +10,19 @@ class Solution:
         for i in range(0,size):
             sum+=mat[i][i]
         for i in range(0,size//2):
-            sum+=mat[r][c]
-            sum+=mat[c][r]
+            sum+=mat[r][c]+mat[c][r]
             r+=1
             c-=1
         return sum 
-        
 
 
 
 mysol=Solution()
 start=time.perf_counter()
-nums=[[5]]
+nums=[[1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
 
 ans=Solution.buildArray(nums)#input
 stops=time.perf_counter()
